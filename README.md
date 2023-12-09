@@ -12,7 +12,7 @@ The code makes use of the following libraries:
 
 1. Include the necessary libraries at the beginning of your code.
 2. Declare variables for temperature and humidity (e.g., `float humidity, float temperature;`).
-3. Call `read_DHT22(&humidity, &temperature)` to obtain temperature and humidity values.
+3. Call `read_DHT22(&humidity, &temperature)` to obtain temperature and humidity values (in °C and %).
 4. Check the return value from  `read_DHT22(&humidity, &temperature)` for errors.
 	- `0` : Reading successful.
 	- `-1`: Sensor not detected.
