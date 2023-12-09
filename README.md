@@ -32,11 +32,11 @@ The code makes use of the following libraries:
 
 The DHT22 utilizes a 1-wire bus for communication. It is important to note that this 1-wire bus differs from the 1-wire bus used by Dallas, and they are not compatible with each other.
 
-#### Communication and signal
+#### Communication and Signal
 
 The communication takes place in 3 steps:
 
-1. **Start Signal (1 ms) an wait for response**
+1. **Start Signal (1 ms) an wait for Response**
 
 	![start_signal.png](images/start_signal.png)
 	
